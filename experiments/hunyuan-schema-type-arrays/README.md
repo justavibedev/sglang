@@ -2,7 +2,7 @@
 
 A legal tool parameter such as `{"type": ["integer", "null"]}` causes the baseline Hunyuan detector to call its scalar type normalizer with a list. Dictionary lookup then raises `TypeError: unhashable type: 'list'`. In non-streaming mode the exception handler returns no calls. In streaming mode it prevents the argument deltas from completing.
 
-[Upstream draft PR #38940](https://github.com/sgl-project/sglang/pull/38940) expands scalar/list type declarations into individual normalized types, preserving the detector's existing type priority and null policy. The experiment uses the actual parser implementation, not a replacement parser.
+[Upstream PR #38940](https://github.com/sgl-project/sglang/pull/38940) expands scalar/list type declarations into individual normalized types, preserving the detector's existing type priority and null policy. The experiment uses the actual parser implementation, not a replacement parser.
 
 ## Pinned comparison
 
