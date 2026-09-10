@@ -1,0 +1,18 @@
+{
+  "baseline_commit": "a26273d668c82400e9e2a97ed328d4148a04e123",
+  "fixed_commit": "a20c6f8eaaedff111750ed1b12993dbd6a2a40b5",
+  "python": "3.12.11 (main, Aug 18 2025, 19:02:39) [Clang 20.1.4 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "runs": {
+    "baseline": {
+      "exit_code": 1,
+      "regression_leaf_checks": 183,
+      "regression_leaf_checks_passed": 0
+    },
+    "fixed": {
+      "exit_code": 0,
+      "regression_leaf_checks": 183,
+      "regression_leaf_checks_passed": 183
+    }
+  }
+}
